@@ -5,6 +5,7 @@
 
 We wrote frameworks for vector-drawn GUI widgeds and preset/prefereces managmnet,
 they are in NUSofting-FlatGUI-Demo\Frameworks\
+this library supports custom colours themes and GUI resize. (So far in VST2 and AU plug-ins)
 
  Note: Currently using MSVS 2019* the Demo_Lib.sln will only build a "demoLibVST.dll" (64-bit VST2 plugin for Windows x64)
  fully functional GUI + presets save/load, but no DSP inside.
@@ -22,3 +23,4 @@ C:\work_zone\vstplugins\demoLibVST\demoLibVST.exe
 (standalone VST2 loader by Tone2)
 
 # VSTGUI 4.3 AND vst 2.x SKD   by Steinberg Media Technologies GmbH, All Rights Reserved
+
