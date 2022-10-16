@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: reggae groove
+Params:
+  input: 0.753
+  mix: 0.358601
+  time 1: 0.215
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.36
+  depth 1: 0
+  div 1: 0.2
+  feed 1: 0.145
+  LP1: 0.89
+  HP1: 0.32
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.400362
+  pan 1: 0.165
+  time 2: 0.175
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.14
+  depth 2: 0
+  div 2: 0.2
+  feed 2: 0.765
+  LP2: 0.425
+  HP2: 0.66
+  pitch 2: 0.5
+  phase 2: 1
+  level 2: 0.425725
+  pan 2: 0.845
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.347134
+  dry: 0.925725
+  tape comp: 0.5
+  ana drift: 0
+  env time 1: 0.375
+  env time 2: 0.37
+  triplets 1: 0
+  triplets 2: 0

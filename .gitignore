@@ -1,3 +1,17 @@
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+
+# Build results
+
+\x64
+\Output
+
 # Prerequisites
 *.d
 
@@ -6,6 +20,38 @@
 *.lo
 *.o
 *.obj
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.vspscc
+*.vssscc
+*.builds
+*.pidb
+*.svclog
+*.scc
+*.log
+*.bak
+*.ipch
+*.pdb
+
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
 
 # Precompiled Headers
 *.gch
@@ -30,3 +76,25 @@
 *.exe
 *.out
 *.app
+*.pdb
+*.bsc
+*.exp
+*.sbr
+*.tlog
+*.pkg
+*.zip
+*.unsuccessfulbuild
+*.bi
+*.suo
+*.lastbuildstate
+*.suo
+*.db
+
+*.xcuserstate
+.DS_Store
+*.fxb
+*.nu
+Frameworks/Platform/Mac/BuildSupport/NotarizationCredential.xcconfig
+xcuserdata
+*.idb
+*.rar

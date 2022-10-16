@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: 3 on 4 Dub style clean
+Params:
+  input: 0.412214
+  mix: 0.608418
+  time 1: 0.03
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.17
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.855
+  LP1: 0.73
+  HP1: 0.18
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.682971
+  pan 1: 0.335
+  time 2: 0.105
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.2
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.48
+  LP2: 0.775
+  HP2: 0.085
+  pitch 2: 0.5
+  phase 2: 1
+  level 2: 0.682971
+  pan 2: 0.76
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 1
+  crossfeed: 0.0911602
+  dry: 0.994565
+  tape comp: 1
+  ana drift: 0
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 1
+  triplets 2: 0

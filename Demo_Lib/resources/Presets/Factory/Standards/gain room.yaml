@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: gain room
+Params:
+  input: 0.721987
+  mix: 0.492625
+  time 1: 0.0005
+  sync 1: 0
+  Line 1 On: 1
+  rate 1: 0.86
+  depth 1: 0.08
+  div 1: 0
+  feed 1: 0.98
+  LP1: 0.51
+  HP1: 0.51
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.435065
+  pan 1: 0.27
+  time 2: 0.045
+  sync 2: 0
+  Line 2 On: 1
+  rate 2: 0
+  depth 2: 0.25
+  div 2: 0
+  feed 2: 0.52
+  LP2: 0.475
+  HP2: 0.215
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.583117
+  pan 2: 0.745
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.964968
+  dry: 0.68961
+  tape comp: 1
+  ana drift: 0.5
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 1

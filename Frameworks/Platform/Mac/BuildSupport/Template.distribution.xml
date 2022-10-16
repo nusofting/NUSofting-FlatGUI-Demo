@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<installer-gui-script minSpecVersion="1">
+    <title>$PRODUCT_TITLE</title>
+    <welcome file="InstallerWelcome.rtf" mime-type="text/rtf" />
+    <license file="License.rtf" mime-type="text/rtf" />
+    <pkg-ref id="$BUNDLE_ID_BASE.AU.pkg"/>
+    <pkg-ref id="$BUNDLE_ID_BASE.VST.pkg"/>
+    <options customize="allow" require-scripts="false" rootVolumeOnly="true" />
+    <choices-outline>
+        <line choice="$BUNDLE_ID_BASE.AU.pkg"/>
+        <line choice="$BUNDLE_ID_BASE.VST.pkg"/>
+    </choices-outline>
+    <choice id="$BUNDLE_ID_BASE.AU.pkg" visible="true" title="$PRODUCT_TITLE AU" description="Install the AU plug-in.">
+        <pkg-ref id="$BUNDLE_ID_BASE.AU.pkg"/>
+    </choice>
+    <pkg-ref id="$BUNDLE_ID_BASE.AU.pkg" version="$VERSION" onConclusion="none">$PACKAGE_NAME_AU.pkg</pkg-ref>
+    <choice id="$BUNDLE_ID_BASE.VST.pkg" visible="true" title="$PRODUCT_TITLE VST" description="Install the VST plug-in.">
+        <pkg-ref id="$BUNDLE_ID_BASE.VST.pkg"/>
+    </choice>
+    <pkg-ref id="$BUNDLE_ID_BASE.VST.pkg" version="$VERSION" onConclusion="none">$PACKAGE_NAME_VST.pkg</pkg-ref>
+</installer-gui-script>

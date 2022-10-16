@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: outerspace invasions
+Params:
+  input: 0.688161
+  mix: 1
+  time 1: 0.005
+  sync 1: 0
+  Line 1 On: 1
+  rate 1: 0.07
+  depth 1: 0.22
+  div 1: 0.2
+  feed 1: 0.88
+  LP1: 0.515
+  HP1: 0.595
+  pitch 1: 0.47
+  phase 1: 0
+  level 1: 0.62987
+  pan 1: 0.5
+  time 2: 0.085
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.035
+  depth 2: 0.115
+  div 2: 0
+  feed 2: 0.88
+  LP2: 0.405
+  HP2: 0.51
+  pitch 2: 0.455
+  phase 2: 1
+  level 2: 0.62987
+  pan 2: 0.5
+  link LPHPs: 0
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 1
+  dry: 0.790909
+  tape comp: 1
+  ana drift: 0
+  env time 1: 0.55
+  env time 2: 0.705
+  triplets 1: 0
+  triplets 2: 0

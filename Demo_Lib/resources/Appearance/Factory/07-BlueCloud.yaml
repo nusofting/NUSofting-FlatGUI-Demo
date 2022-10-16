@@ -1,0 +1,29 @@
+---
+Theme:
+  product: Echobis
+  version: 1.1
+  format: 1
+  name: blue cloud
+Appearance:
+  mainBackgroundRGB: [35, 35, 53]
+  controlBackgroundRGB: [23, 23, 43]
+  highlightLineRGB: [97, 97, 128]
+  plainLineRGB: [132, 132, 132]
+  highlightFrameRGB: [132, 132, 132]
+  plainFrameRGB: [43, 43, 98]
+  displayValueFontRGB: [192,192,192]
+  activeValueFontRGB: [120, 190, 254]
+  inactiveValueFontRGB: [129, 129, 129]
+  controlActiveRGB: [97, 190, 186]
+  controlInactiveRGB: [104, 104, 104]
+  sliderTrackBackRGB: [5, 5, 7]
+  sliderTrackFrontRGB: [98, 98, 98]
+  knobRimRGB: [43, 43, 98]
+  knobIndicatorRGB: [250, 250, 250]
+  labelFontRGB: [192, 192, 192]
+  tooltipFontRGB: [197, 197, 197]
+  graphBackgroundRGB: [24, 57, 53]
+  graphSignalRGB: [200, 200, 200]
+  graphPeakRGB: [120, 16, 97]
+  graphClipRGB: [120, 0, 0]
+

@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: XF 2 Rolls
+Params:
+  input: 0.656433
+  mix: 0.574344
+  time 1: 0.18
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.29
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.365
+  LP1: 0.45
+  HP1: 0.145
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.602888
+  pan 1: 0.115
+  time 2: 0.105
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.285
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.725
+  LP2: 0.475
+  HP2: 0.185
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.602888
+  pan 2: 0.845
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0.5
+  crossfeed: 0.340764
+  dry: 0.798913
+  tape comp: 1
+  ana drift: 0.5
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

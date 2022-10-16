@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: 4+2 pitch up
+Params:
+  input: 0.753
+  mix: 0.408163
+  time 1: 0.095
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.5
+  depth 1: 0
+  div 1: 0.4
+  feed 1: 0.375
+  LP1: 0.395
+  HP1: 0.585
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.736364
+  pan 1: 0.335
+  time 2: 0.025
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.16
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.305
+  LP2: 0.375
+  HP2: 0.215
+  pitch 2: 1
+  phase 2: 1
+  level 2: 0.637662
+  pan 2: 0.76
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.461783
+  dry: 0.994565
+  tape comp: 0.5
+  ana drift: 1
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

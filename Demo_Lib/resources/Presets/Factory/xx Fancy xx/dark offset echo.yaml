@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: dark offset echo
+Params:
+  input: 0.746491
+  mix: 0.539359
+  time 1: 0.13
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0.975
+  div 1: 0
+  feed 1: 0.83
+  LP1: 0.295
+  HP1: 0.24
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.588768
+  pan 1: 0.17
+  time 2: 0.165
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 1
+  depth 2: 0.96
+  div 2: 0
+  feed 2: 0.83
+  LP2: 0.295
+  HP2: 0.24
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.588768
+  pan 2: 0.83
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0.94586
+  dry: 0.667411
+  tape comp: 0.5
+  ana drift: 1
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

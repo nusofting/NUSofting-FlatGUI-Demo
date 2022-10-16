@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: ring the echo
+Params:
+  input: 0.618421
+  mix: 0.61516
+  time 1: 0.07
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.175
+  LP1: 0.38
+  HP1: 0.02
+  pitch 1: 0.755
+  phase 1: 0
+  level 1: 0.711957
+  pan 1: 0.395
+  time 2: 0.04
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 1
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.755
+  LP2: 0.38
+  HP2: 0.02
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.54529
+  pan 2: 0.605
+  link LPHPs: 1
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.429936
+  dry: 0.893116
+  tape comp: 1
+  ana drift: 1
+  env time 1: 0.53
+  env time 2: 0.43
+  triplets 1: 0
+  triplets 2: 0

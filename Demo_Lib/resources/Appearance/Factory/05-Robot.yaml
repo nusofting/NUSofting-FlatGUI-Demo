@@ -1,0 +1,28 @@
+---
+Theme:
+  product: Echobis
+  version: 1.1
+  format: 1
+  name: Robot
+Appearance:
+  mainBackgroundRGB: [66, 68, 70]
+  controlBackgroundRGB: [56, 58, 60]
+  highlightLineRGB: [86, 88, 90]
+  plainLineRGB: [246, 248, 250]
+  highlightFrameRGB: [36, 38, 40]
+  plainFrameRGB: [36, 38, 40]
+  displayValueFontRGB: [246, 248, 250]
+  activeValueFontRGB: [80, 200, 255]
+  inactiveValueFontRGB: [96, 98, 100]
+  controlActiveRGB: [80, 200, 255]
+  controlInactiveRGB: [96, 98, 100]
+  sliderTrackBackRGB:  [6, 8 , 10]
+  sliderTrackFrontRGB: [90, 160, 215]
+  knobRimRGB: [6, 8, 10]
+  knobIndicatorRGB: [246, 248 , 250]
+  labelFontRGB: [196, 198 , 200]
+  tooltipFontRGB: [80, 200, 255]
+  graphBackgroundRGB: [43, 206, 43]
+  graphSignalRGB: [200, 200, 43]
+  graphPeakRGB: [250, 3, 3]
+  graphClipRGB: [250, 3, 3]

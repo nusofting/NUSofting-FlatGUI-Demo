@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AudioComponents</key>
+	<array>
+		<dict>
+			<key>description</key>
+			<string>${_AU_DESCRIPTION}</string>
+			<key>factoryFunction</key>
+			<string>${_AU_FACTORY}</string>
+			<key>manufacturer</key>
+			<string>${_AU_MANUFACTURER_4CC}</string>
+			<key>name</key>
+			<string>${_AU_NAME}</string>
+			<key>subtype</key>
+			<string>${_AU_IDENTIFIER_4CC}</string>
+			<key>type</key>
+			<string>${_AU_TYPE_4CC}</string>
+            <key>version</key>
+            <integer>_AU_VERSION</integer>
+		</dict>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>${PRODUCT_BUNDLE_IDENTIFIER}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${CURRENT_PROJECT_VERSION}</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>${CURRENT_PROJECT_VERSION}</string>
+	<key>CSResourcesFileMapped</key>
+	<string>yes</string>
+</dict>
+</plist>

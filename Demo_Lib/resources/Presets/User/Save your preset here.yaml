@@ -1,0 +1,42 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: Save your preset here
+Params:
+  input: 0.723
+  mix: 0.447704
+  time 1: 0.15
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.13
+  depth 1: 0
+  div 1: 0.8
+  feed 1: 0.215
+  LP1: 0.605
+  HP1: 0.335
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.650316
+  pan 1: 0.115
+  time 2: 0.11
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.015
+  depth 2: 0
+  div 2: 0.2
+  feed 2: 0.215
+  LP2: 0.605
+  HP2: 0.335
+  pitch 2: 0.515
+  phase 2: 1
+  level 2: 0.650316
+  pan 2: 0.885
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0
+  dry: 0.751582
+  tape comp: 1
+  ana drift: 0.5

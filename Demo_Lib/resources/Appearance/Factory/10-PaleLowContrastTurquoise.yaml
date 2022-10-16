@@ -1,0 +1,34 @@
+---
+Theme:
+  product: Echobis
+  version: 1.1
+  format: 1
+  name: pale turquoise
+Appearance:
+  mainBackgroundRGB: [131, 160, 160]
+
+  controlBackgroundRGB: [120, 140, 140]
+  controlActiveRGB: [11, 76, 100]
+  controlInactiveRGB: [104, 104, 104]
+
+  highlightLineRGB: [11, 76, 100]
+  plainLineRGB: [152, 192, 172]
+  highlightFrameRGB: [131, 160, 160]
+  plainFrameRGB: [131, 160, 160]
+
+  displayValueFontRGB: [152, 192, 172]
+  activeValueFontRGB: [11, 76, 100]
+  inactiveValueFontRGB: [60, 60, 60]
+  labelFontRGB: [29, 50, 54]
+  tooltipFontRGB: [29, 50, 54]
+
+  sliderTrackBackRGB: [95, 120, 120]
+  sliderTrackFrontRGB: [11, 76, 100]
+  knobRimRGB: [95, 120, 120]
+  knobIndicatorRGB: [152, 192, 172]
+
+  graphBackgroundRGB: [120, 140, 140]
+  graphSignalRGB: [11, 76, 100]
+  graphPeakRGB: [111, 186, 186]
+  graphClipRGB: [200, 140, 140]
+

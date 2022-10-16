@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug X64|Win32">
+      <Configuration>Debug X64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug X64|x64">
+      <Configuration>Debug X64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo X64|Win32">
+      <Configuration>Demo X64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo X64|x64">
+      <Configuration>Demo X64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release X64|Win32">
+      <Configuration>Release X64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release X64|x64">
+      <Configuration>Release X64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F6297BB-5190-4B24-87E5-198CB2F135F4}</ProjectGuid>
+    <RootNamespace>vstsynth</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release X64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo X64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug X64|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release X64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo X64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug X64|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release X64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo X64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug X64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release X64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo X64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug X64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.61030.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release X64|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LibraryPath>..\Frameworks\yaml-cpp;$(LibraryPath)</LibraryPath>
+    <LinkIncremental />
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo X64|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LibraryPath>..\Frameworks\yaml-cpp;$(LibraryPath)</LibraryPath>
+    <LinkIncremental />
+    <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
+    <EnableManagedIncrementalBuild>true</EnableManagedIncrementalBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug X64|x64'">
+    <OutDir>$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <IgnoreImportLibrary>false</IgnoreImportLibrary>
+    <LinkIncremental />
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <LibraryPath>..\Frameworks\yaml-cpp;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release X64|x64'">
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\Output/vstsynth.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\DashLibrary;..\..\Frameworks;..\..\Frameworks\vst2.4;..\DashLibrary;..\Frameworks\vst2.4;..\Frameworks</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEMO=0;_WIN64;_WINDOWS;WINDOWS=1;_CONSOLE;__WINDOWS_DS__;__LITTLE_ENDIAN__;_USE_MATH_DEFINES;_CRT_SECURE_NO_DEPRECATE;VST_FORCE_DEPRECATED=0;VSTGUI_NEW_CFILESELECTOR=0;VSTGUI_ENABLE_OLD_CLASS_TYPE_INFO;_WINDLL;_MBCS;WINDOWS;WIN32;VSTGUI_DIRECT2D_SUPPORT;_Echobis_</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeaderOutputFile>.\Output/vstsynth.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Output/</AssemblerListingLocation>
+      <ObjectFileName>.\Output/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output/</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <XMLDocumentationFileName>$(IntDir)Echo_Grain</XMLDocumentationFileName>
+      <BrowseInformation />
+      <WarningLevel>Level1</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat />
+      <ErrorReporting>None</ErrorReporting>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/EHsc %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>msvcrt.lib;yaml-cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>LinkVerboseLib</ShowProgress>
+      <OutputFile>C:\work_zone\vstplugins\demoLibVST\demoLibVST.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\Frameworks;..\..\Dashlibrary;.\source;..\Dashlibrary;%(AdditionalLibraryDirectories);..\Output</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrtd.lib;libcd.lib;libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\wVstSynth.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AssemblyDebug />
+      <SubSystem>NotSet</SubSystem>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase />
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>.\Output/Echo_Grain.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>false</Profile>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Output/vstsynth.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>C:\work_zone\vstplugins\Echobis\Echobis_x64.exe</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo X64|x64'">
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\Output/vstsynth.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\DashLibrary;..\..\Frameworks;..\..\Frameworks\vst2.4;..\DashLibrary;..\Frameworks\vst2.4;..\Frameworks</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEMO=1;_WIN64;_WINDOWS;WINDOWS=1;_CONSOLE;__WINDOWS_DS__;__LITTLE_ENDIAN__;_USE_MATH_DEFINES;_CRT_SECURE_NO_DEPRECATE;VST_FORCE_DEPRECATED=0;VSTGUI_NEW_CFILESELECTOR=0;VSTGUI_ENABLE_OLD_CLASS_TYPE_INFO;_WINDLL;_MBCS;WINDOWS;WIN32;VSTGUI_DIRECT2D_SUPPORT;_Echobis_</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeaderOutputFile>.\Output/vstsynth.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Output/</AssemblerListingLocation>
+      <ObjectFileName>.\Output/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output/</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <XMLDocumentationFileName>$(IntDir)Echo_Grain</XMLDocumentationFileName>
+      <BrowseInformation>
+      </BrowseInformation>
+      <WarningLevel>Level1</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ErrorReporting>None</ErrorReporting>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <EnableParallelCodeGeneration>true</EnableParallelCodeGeneration>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/EHsc %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>msvcrt.lib;yaml-cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>LinkVerboseLib</ShowProgress>
+      <OutputFile>C:\work_zone\vstplugins\Echobis\Echobis_x64_DEMO.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\Frameworks;..\..\Dashlibrary;.\source;..\Dashlibrary;%(AdditionalLibraryDirectories);..\Output</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrtd.lib;libcd.lib;libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\wVstSynth.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AssemblyDebug>
+      </AssemblyDebug>
+      <SubSystem>NotSet</SubSystem>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Output/Echo_Grain.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>false</Profile>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Output/vstsynth.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>C:\work_zone\vstplugins\Echobis\Echobis_x64_DEMO.exe</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug X64|x64'">
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>X64</TargetEnvironment>
+      <TypeLibraryName>.\Output/vstsynth.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..\..\DashLibrary;..\..\Frameworks;..\..\Frameworks\vst2.4;..\DashLibrary;..\Frameworks\vst2.4;..\Frameworks</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>DEMO=0;_WIN64;_WINDOWS;WINDOWS=1;WINDOWS;_CONSOLE;__WINDOWS_DS__;__LITTLE_ENDIAN__;_USE_MATH_DEFINES;_CRT_SECURE_NO_DEPRECATE;VST_FORCE_DEPRECATED=0;VSTGUI_NEW_CFILESELECTOR=0;VSTGUI_ENABLE_OLD_CLASS_TYPE_INFO;_WINDLL;_MBCS;WIN32;VSTGUI_DIRECT2D_SUPPORT;_Echobis_</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeaderOutputFile>.\Output/vstsynth.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Output/</AssemblerListingLocation>
+      <ObjectFileName>.\Output/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Output/</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <XMLDocumentationFileName>$(IntDir)Echo_Grain</XMLDocumentationFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <WarningLevel>Level1</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ErrorReporting>None</ErrorReporting>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <Link>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>msvcrtd.lib;yaml-cppd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>LinkVerboseLib</ShowProgress>
+      <OutputFile>C:\work_zone\vstplugins\demoLibVST\demoLibVST.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\Frameworks;..\..\Dashlibrary;.\source;..\Dashlibrary;%(AdditionalLibraryDirectories);..\Output</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib;libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>.\wVstSynth.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>
+      </AssemblyDebug>
+      <SubSystem>NotSet</SubSystem>
+      <ProfileGuidedDatabase>
+      </ProfileGuidedDatabase>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\Output/Echo_Grain.lib</ImportLibrary>
+      <TargetMachine>MachineX64</TargetMachine>
+      <Profile>false</Profile>
+      <UACUIAccess>true</UACUIAccess>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Output/vstsynth.bsc</OutputFile>
+    </Bscmake>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Frameworks\AppearanceManager\Appearance.cpp" />
+    <ClCompile Include="..\Frameworks\AppearanceManager\AppearanceFactory.cpp" />
+    <ClCompile Include="..\Frameworks\AppearanceManager\AppearanceManager.cpp" />
+    <ClCompile Include="..\Frameworks\Core\DspEngine.cpp" />
+    <ClCompile Include="..\Frameworks\Core\MeteringData.cpp" />
+    <ClCompile Include="..\Frameworks\Core\Modulations.cpp" />
+    <ClCompile Include="..\Frameworks\Core\Parameters.cpp" />
+    <ClCompile Include="..\Frameworks\Core\PluginCore.cpp" />
+    <ClCompile Include="..\Frameworks\Core\Vst2Plugin.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\AppearanceController.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CDisplayBitmap.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CKickTwiceMenu.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CKickTwiceZoom.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\Controls.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CRandWidget.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CSimpleLabel.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CSliderFlat.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CStereoWavsView.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\CToolTip.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\messages_multi_controls.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\PreferencesRegistry.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\StringsViewer.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\ToolBar.cpp" />
+    <ClCompile Include="..\Frameworks\FlatGUI\ZoomableEditor.cpp" />
+    <ClCompile Include="..\Frameworks\Platform\Common\PlatformCommon.cpp" />
+    <ClCompile Include="..\Frameworks\Platform\Win\PlatformWin.cpp" />
+    <ClCompile Include="..\Frameworks\Platform\Win\PreferencesRegistryStore.cpp" />
+    <ClCompile Include="..\Frameworks\PresetManager\PresetManager.cpp" />
+    <ClCompile Include="..\Frameworks\PresetManager\Program.cpp" />
+    <ClCompile Include="..\Frameworks\PresetManager\ProgramFactory.cpp" />
+    <ClCompile Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffect.cpp" />
+    <ClCompile Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffectx.cpp" />
+    <ClCompile Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\vstplugmain.cpp" />
+    <ClCompile Include="..\Frameworks\VSTGUI-extension\Dialogs.cpp" />
+    <ClCompile Include="..\Frameworks\VSTGUI-extension\Popups.cpp" />
+    <ClCompile Include="..\Frameworks\vstgui\plugin-bindings\plugguieditor.cpp" />
+    <ClCompile Include="..\Frameworks\vstgui\vstgui_win32.cpp" />
+    <ClCompile Include="..\Frameworks\YAML\YamlParser.cpp" />
+    <ClCompile Include="source\Demo_LibPlugin.cpp" />
+    <ClCompile Include="source\__myeditor__.cpp" />
+    <ClCompile Include="source\VstSynthPar.cpp" />
+    <ClCompile Include="source\VstSynthProc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Frameworks\AppearanceManager\Appearance.h" />
+    <ClInclude Include="..\Frameworks\AppearanceManager\AppearanceFactory.h" />
+    <ClInclude Include="..\Frameworks\AppearanceManager\AppearanceManager.h" />
+    <ClInclude Include="..\Frameworks\Core\NotificationsInterface.h" />
+    <ClInclude Include="..\Frameworks\Core\Parameters.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\AppearanceController.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CDisplayBitmap.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CKickTwiceMenu.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CKickTwiceZoom.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CLabelViewsChange.hpp" />
+    <ClInclude Include="..\Frameworks\FlatGUI\Config.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\Controls.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CRandWidget.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CSimpleLabel.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CSliderFlat.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CStereoWavsView.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\CToolTip.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\editor_colours.hpp" />
+    <ClInclude Include="..\Frameworks\FlatGUI\FontSizeFactors.hpp" />
+    <ClInclude Include="..\Frameworks\FlatGUI\messages_multi_controls.hpp" />
+    <ClInclude Include="..\Frameworks\FlatGUI\PreferencesRegistry.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\SharedToolBarRects.hpp" />
+    <ClInclude Include="..\Frameworks\FlatGUI\StringsViewer.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\ToolBar.h" />
+    <ClInclude Include="..\Frameworks\FlatGUI\ZoomableEditor.h" />
+    <ClInclude Include="..\Frameworks\Platform\Common\PlatformCommon.h" />
+    <ClInclude Include="..\Frameworks\Platform\Platform.h" />
+    <ClInclude Include="..\Frameworks\PresetManager\PresetManager.h" />
+    <ClInclude Include="..\Frameworks\PresetManager\Program.h" />
+    <ClInclude Include="..\Frameworks\PresetManager\ProgramFactory.h" />
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\aeffect.h" />
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\aeffectx.h" />
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\aeffeditor.h" />
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffect.h" />
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffectx.h" />
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\vstfxstore.h" />
+    <ClInclude Include="..\Frameworks\VSTGUI-extension\Popups.h" />
+    <ClInclude Include="..\Frameworks\vstgui\plugin-bindings\plugguieditor.h" />
+    <ClInclude Include="..\Frameworks\YAML\YamlParser.h" />
+    <ClInclude Include="source\beta_switch.hpp" />
+    <ClInclude Include="source\BFRBackgroundBitmap.h" />
+    <ClInclude Include="source\PluginDef.h" />
+    <ClInclude Include="source\randomizerSelector.hpp" />
+    <ClInclude Include="source\__myeditor__.h" />
+    <ClInclude Include="source\VstSynth.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

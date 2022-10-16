@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 5
+  format: 1
+  name: soft 6 mods
+Params:
+  input: 0.317251
+  mix: 0.489796
+  time 1: 0.165
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.17
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.81
+  LP1: 0.37
+  HP1: 0
+  pitch 1: 1
+  phase 1: 0
+  level 1: 0.849638
+  pan 1: 0.335
+  time 2: 0.19
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.2
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.915
+  LP2: 0.415
+  HP2: 0.305
+  pitch 2: 1
+  phase 2: 0
+  level 2: 0.855596
+  pan 2: 0.76
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 1
+  dry: 0.86413
+  tape comp: 1
+  ana drift: 0
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 1

@@ -1,0 +1,29 @@
+---
+Theme:
+  product: Echobis
+  version: 1.1
+  format: 1
+  name: computer era
+Appearance:
+  mainBackgroundRGB: [198,174,98]
+  controlBackgroundRGB: [75, 98, 89]
+  highlightLineRGB: [52, 52, 12]
+  plainLineRGB: [55, 44, 25]
+  highlightFrameRGB: [83, 255, 237]
+  plainFrameRGB: [83, 255, 237]
+  displayValueFontRGB: [83, 255, 237]
+  activeValueFontRGB: [83, 255, 237]
+  inactiveValueFontRGB: [32, 32, 32]
+  controlActiveRGB: [83, 255, 237] 
+  controlInactiveRGB: [98, 98, 98]
+  sliderTrackBackRGB: [12, 5, 5]
+  sliderTrackFrontRGB: [75, 98, 89]
+  knobRimRGB: [37, 31, 24]
+  knobIndicatorRGB: [83, 255, 237]
+  labelFontRGB: [12, 5, 5]
+  tooltipFontRGB: [5, 12, 12]
+  graphBackgroundRGB: [75, 98, 89]
+  graphSignalRGB: [83, 255, 237]
+  graphPeakRGB: [83, 255, 237]
+  graphClipRGB: [83, 255, 237]
+  decoRGBA: [55, 44, 25, 128]

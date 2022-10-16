@@ -1,0 +1,46 @@
+digraph BernieFramework {
+  pad = 1
+  node [shape=box]
+  nodesep = 1
+  ranksep = 1
+  node [fontname="Helvetica"]
+  subgraph Editor
+  {
+    rank = min
+    EditorCore -> myEditor [dir=back, arrowtail=onormal]
+  }
+  subgraph Core
+  {
+    rank = same;
+    concentrate=true
+    PluginCore -> PetiPlugin [dir=back, arrowtail=onormal]
+    Vst2Plugin -> PluginCore [color=gray]
+    PluginCore -> Vst2Plugin [color=gray]
+  }
+  PluginCore -> EditorCore [weight=4]
+  subgraph Dsp
+  {
+    rank = max
+    DspEngine -> VstSynth [dir=back, arrowtail=onormal]
+  }
+  PluginCore -> DspEngine [weight=4]
+
+  // Accessed via abstract interfaces
+  edge [fontname="Helvetica", fontsize=8, fontcolor=blue color=blue]
+  EditorCore:s -> PluginCore [label="Editor\nTo\nPlugin\nCore\nInterface"]
+  DspEngine:n -> PluginCore [label="Dsp\nTo\nPlugin\nCore\nInterface"]
+  DspEngine:w -> EditorCore:w [label="Dsp\nTo\nEditor\nInterface", labelfloat=true]
+
+  // Classes in the framework's Core:
+  EditorCore [color=blue, fontcolor=blue]
+  PluginCore [color=blue, fontcolor=blue]
+  DspEngine [color=blue, fontcolor=blue]
+
+  // Application classes that inherit from the framework's Core:
+  myEditor [color=black, fontcolor=black]
+  VstSynth [color=black, fontcolor=black]
+  PetiPlugin [color=black, fontcolor=black]
+
+  // Implementation detail classes
+  Vst2Plugin [color=gray, fontcolor=gray]
+}

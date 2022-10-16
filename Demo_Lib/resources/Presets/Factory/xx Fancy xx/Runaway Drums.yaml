@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: Runaway Drums
+Params:
+  input: 0.714912
+  mix: 0.932945
+  time 1: 0.162948
+  sync 1: 0.655006
+  Line 1 On: 1
+  rate 1: 0.858954
+  depth 1: 0.00531818
+  div 1: 0
+  feed 1: 0.214874
+  LP1: 0.330848
+  HP1: 0.319634
+  pitch 1: 0.5
+  phase 1: 0.652555
+  level 1: 0.89823
+  pan 1: 0.590337
+  time 2: 0.454227
+  sync 2: 0.518062
+  Line 2 On: 1
+  rate 2: 0.562348
+  depth 2: 0.745
+  div 2: 0.292299
+  feed 2: 0.34
+  LP2: 0.735542
+  HP2: 0.728564
+  pitch 2: 0.259136
+  phase 2: 0.409401
+  level 2: 0.57489
+  pan 2: 0.511015
+  link LPHPs: 0
+  link Feeds: 0.349909
+  link levels: 0
+  crossfeed: 0.429936
+  dry: 0.776173
+  tape comp: 0.441412
+  ana drift: 0.465118
+  env time 1: 0.338358
+  env time 2: 0.312371
+  triplets 1: 0
+  triplets 2: 0

@@ -1,0 +1,29 @@
+---
+Theme:
+  product: Echobis
+  version: 1.0
+  format: 1
+  name: T2020++
+Appearance:
+  mainBackgroundRGB: [140,140,160]
+  controlBackgroundRGB: [120, 110, 138]
+  highlightLineRGB: [142, 128, 60]
+  plainLineRGB: [22, 12, 35]
+  highlightFrameRGB: [60, 40, 70]
+  plainFrameRGB: [198, 165, 12]
+  displayValueFontRGB: [234, 214, 245]
+  activeValueFontRGB: [255, 253, 234]
+  inactiveValueFontRGB: [32, 32, 32]
+  controlActiveRGB: [250, 245, 255]
+  controlInactiveRGB: [90, 80, 95]
+  sliderTrackBackRGB: [22, 12, 35]
+  sliderTrackFrontRGB: [198, 165, 12]
+  knobRimRGB: [38, 18, 55]
+  knobIndicatorRGB: [230, 220, 240]
+  labelFontRGB: [38, 18, 45]
+  tooltipFontRGB: [0, 0, 0]
+  graphBackgroundRGB: [43, 206, 43]
+  graphSignalRGB: [200, 200, 43]
+  graphPeakRGB: [250, 3, 3]
+  graphClipRGB: [250, 3, 3]
+  decoType: bitmap1

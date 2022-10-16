@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: odd detunes
+Params:
+  input: 0.752564
+  mix: 0.740525
+  time 1: 0.225
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.37
+  LP1: 0.72
+  HP1: 0.81
+  pitch 1: 1
+  phase 1: 1
+  level 1: 0.675725
+  pan 1: 0.115
+  time 2: 0.31
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.285
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.36
+  LP2: 0.695
+  HP2: 0.72
+  pitch 2: 0
+  phase 2: 1
+  level 2: 0.621377
+  pan 2: 0.845
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0.5
+  crossfeed: 1
+  dry: 0.723101
+  tape comp: 1
+  ana drift: 1
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: Rhythm Changer
+Params:
+  input: 0.668129
+  mix: 0.390671
+  time 1: 0.476135
+  sync 1: 0.519748
+  Line 1 On: 1
+  rate 1: 0.514259
+  depth 1: 0.422281
+  div 1: 0.371693
+  feed 1: 0.0554241
+  LP1: 0.839921
+  HP1: 0.209286
+  pitch 1: 0.50071
+  phase 1: 0.490615
+  level 1: 0.646688
+  pan 1: 0.590337
+  time 2: 0.433284
+  sync 2: 0.558558
+  Line 2 On: 1
+  rate 2: 0.433709
+  depth 2: 0.464126
+  div 2: 0.668998
+  feed 2: 0.0727455
+  LP2: 0.884832
+  HP2: 0.153345
+  pitch 2: 0.680361
+  phase 2: 1
+  level 2: 0.646688
+  pan 2: 0.511015
+  link LPHPs: 0.558315
+  link Feeds: 0.349909
+  link levels: 1
+  crossfeed: 0.557325
+  dry: 0.896739
+  tape comp: 1
+  ana drift: 1
+  env time 1: 0.355
+  env time 2: 0.365
+  triplets 1: 0
+  triplets 2: 0

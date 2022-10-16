@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: chaos in orchestra
+Params:
+  input: 0.628964
+  mix: 0.504373
+  time 1: 0.365
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.07
+  depth 1: 0.58
+  div 1: 0.2
+  feed 1: 0.75
+  LP1: 0.335
+  HP1: 0.25
+  pitch 1: 0.435
+  phase 1: 1
+  level 1: 0.606493
+  pan 1: 0.105
+  time 2: 0.43
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.035
+  depth 2: 0.81
+  div 2: 0
+  feed 2: 0.75
+  LP2: 0.315
+  HP2: 0.325
+  pitch 2: 0.455
+  phase 2: 0
+  level 2: 0.627273
+  pan 2: 0.88
+  link LPHPs: 0
+  link Feeds: 1
+  link levels: 0
+  crossfeed: 0
+  dry: 0.632468
+  tape comp: 1
+  ana drift: 0
+  env time 1: 0.36
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

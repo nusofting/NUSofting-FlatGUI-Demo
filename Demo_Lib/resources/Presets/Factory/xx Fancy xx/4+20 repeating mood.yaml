@@ -1,0 +1,44 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC
+  format: 1
+  name: 4+20 repeating mood
+Params:
+  input: 0.682749
+  mix: 0.749271
+  time 1: 0.095
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0
+  div 1: 0.2
+  feed 1: 0.84
+  LP1: 0.575
+  HP1: 0.185
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.67148
+  pan 1: 0.17
+  time 2: 0.6
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 1
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.84
+  LP2: 0.575
+  HP2: 0.185
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.67148
+  pan 2: 0.83
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0.531847
+  dry: 0.878623
+  tape comp: 0.5
+  ana drift: 0.5
+  env time 1: 0.5
+  env time 2: 0.5

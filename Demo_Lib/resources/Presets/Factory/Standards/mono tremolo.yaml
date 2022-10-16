@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: mono tremolo
+Params:
+  input: 0.773392
+  mix: 0.507289
+  time 1: 0.105
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.17
+  depth 1: 0.655
+  div 1: 0.2
+  feed 1: 0.615
+  LP1: 0.3
+  HP1: 0.12
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.690217
+  pan 1: 0.48
+  time 2: 0.17
+  sync 2: 1
+  Line 2 On: 0
+  rate 2: 0.2
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.76
+  LP2: 0.415
+  HP2: 0.305
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.690217
+  pan 2: 0.52
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 1
+  crossfeed: 0
+  dry: 0.794224
+  tape comp: 0.5
+  ana drift: 0.5
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

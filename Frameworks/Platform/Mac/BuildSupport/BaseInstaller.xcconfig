@@ -1,0 +1,45 @@
+// Naming convention:
+// _<VARIABLE>
+//      is a custom (i.e. non-Xcode) variable that is simply substituted or directly used.
+// __<VARIABLE>_<SUFFIX>
+//      is a custom variable that is not directly used outside of the xcconfig file.
+//      Many of these variables are defined multiple times with different suffixes,
+//      and substituted with a nested variable to pick the desired variants, e.g. $(__<VARIABLE>_$(<SUFFIX))
+
+#include "Base.xcconfig"
+
+__INSTALLER_TEMPLATES_PATH = $(__BUILD_SUPPORT_PATH)
+
+//==============================================================================
+//
+// Installer packaging custom settings for installer creation script
+//
+__PACKAGE_SUFFIX_Demo = _Demo
+__PACKAGE_SUFFIX = $(__PACKAGE_SUFFIX_$(CONFIGURATION))
+__PACKAGE_SPACE_SUFFIX_Demo = $(__SPACER) Demo
+__PACKAGE_SPACE_SUFFIX = $(__PACKAGE_SPACE_SUFFIX_$(CONFIGURATION))
+_COMPONENT_PACKAGE_NAME_BASE = $(__PRODUCT_NAME_BASE)$(__PRODUCT_NAME_SUFFIX_$(CONFIGURATION))_$(_CURRENT_PROJECT_VERSION_MAC)$(__PACKAGE_SUFFIX)
+_COMPONENT_PACKAGE_NAME_TEMPLATE = $(_COMPONENT_PACKAGE_NAME_BASE)_@COMPONENT_TYPE.pkg
+_PRODUCT_PACKAGE_ID = $(__BUNDLE_ID_BASE)
+_PRODUCT_PACKAGE_NAME = $(__MANUFACTURER)_$(_COMPONENT_PACKAGE_NAME_BASE)_macOS_AU_VST.pkg
+_PRODUCT_PACKAGE_TITLE = $(_PRODUCT_NAME_USER) $(_CURRENT_PROJECT_VERSION_MAC)$(__PACKAGE_SPACE_SUFFIX)
+_PRODUCT_PACKAGE_VERSION = $(_CURRENT_PROJECT_VERSION_MAC)
+
+__LAP = /Library/Audio/Plug-Ins
+// Build a list of bundle name / component type / install path tuples.
+// The list items are separated by a ';' character while the components of the tuples
+// are separated by a ','. This assumes those two separator characters actually never
+// occur in the names or paths.
+_PRODUCT_PACKAGE_BUNDLE_DETAILS = ($(PRODUCT_NAME).component,AU,$(__LAP)/Components);($(PRODUCT_NAME).vst,VST,$(__LAP)/VST)
+
+_TEMPLATE_LICENSE_FILE = $(__INSTALLER_TEMPLATES_PATH)/Template.License.rtf
+_TEMPLATE_WELCOME_FILE = $(__INSTALLER_TEMPLATES_PATH)/Template.InstallerWelcome.rtf
+_TEMPLATE_DISTRIBUTION_FILE = $(__INSTALLER_TEMPLATES_PATH)/Template.distribution.xml
+
+//==============================================================================
+//
+// Local helper path for collecting built packages.
+// This makes it easier to find the built installer packages, which Xcode builds
+// deep in the derived data directory tree.
+//
+_BUILT_PACKAGE_COLLECTION_PATH = $(HOME)/Temp

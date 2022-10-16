@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: works
+Params:
+  input: 0.752924
+  mix: 0.57113
+  time 1: 0.196966
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.231039
+  depth 1: 0.276238
+  div 1: 0.174345
+  feed 1: 1
+  LP1: 0.635978
+  HP1: 0.296366
+  pitch 1: 1
+  phase 1: 0.539513
+  level 1: 0.849638
+  pan 1: 0.145
+  time 2: 0.099617
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.192916
+  depth 2: 0.205563
+  div 2: 0.308898
+  feed 2: 0.715
+  LP2: 0.877987
+  HP2: 0.218804
+  pitch 2: 0.48816
+  phase 2: 0.542717
+  level 2: 0.823105
+  pan 2: 0.735
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.00318471
+  dry: 0.761163
+  tape comp: 0.365516
+  ana drift: 0.789258
+  env time 1: 0.507487
+  env time 2: 0.540126
+  triplets 1: 0.660648
+  triplets 2: 0.417718

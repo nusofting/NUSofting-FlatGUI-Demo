@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: BBD style
+Params:
+  input: 0.69152
+  mix: 0.539359
+  time 1: 0.07
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.7
+  LP1: 0.38
+  HP1: 0.02
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.342391
+  pan 1: 0.17
+  time 2: 0.04
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 1
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.7
+  LP2: 0.38
+  HP2: 0.02
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.342391
+  pan 2: 0.83
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0.429936
+  dry: 0.983696
+  tape comp: 1
+  ana drift: 1
+  env time 1: 0.53
+  env time 2: 0.43
+  triplets 1: 0
+  triplets 2: 0

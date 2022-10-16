@@ -1,0 +1,45 @@
+// Naming convention:
+// _<VARIABLE>
+//      is a custom (i.e. non-Xcode) variable that is simply substituted or directly used.
+// __<VARIABLE>_<SUFFIX>
+//      is a custom variable that is not directly used outside of the xcconfig file.
+//      Many of these variables are defined multiple times with different suffixes,
+//      and substituted with a nested variable to pick the desired variants, e.g. $(__<VARIABLE>_$(<SUFFIX))
+
+//==============================================================================
+//
+// Code signing settings
+//
+__SIGNED_BUILD_CODE_SIGN_IDENTITY = Developer ID Application
+__SIGNED_BUILD_CODE_SIGN_STYLE = Manual
+__SIGNED_BUILD_DEVELOPMENT_TEAM = LTUSN6SMBB
+__SIGNED_BUILD_OTHER_CODE_SIGN_FLAGS = --timestamp
+
+__UNSIGNED_BUILD_CODE_SIGN_IDENTITY =
+__UNSIGNED_BUILD_CODE_SIGN_STYLE =
+__UNSIGNED_BUILD_DEVELOPMENT_TEAM =
+__UNSIGNED_BUILD_OTHER_CODE_SIGN_FLAGS =
+
+__CODE_SIGN_IDENTITY_Release = $__SIGNED_BUILD_CODE_SIGN_IDENTITY
+__CODE_SIGN_STYLE_Release = $__SIGNED_BUILD_CODE_SIGN_STYLE
+__DEVELOPMENT_TEAM_Release = $__SIGNED_BUILD_DEVELOPMENT_TEAM
+__CODE_SIGN_IDENTITY_Release = $__SIGNED_BUILD_CODE_SIGN_IDENTITY
+
+__CODE_SIGN_IDENTITY_Demo = $__SIGNED_BUILD_CODE_SIGN_IDENTITY
+__CODE_SIGN_STYLE_Demo = $__SIGNED_BUILD_CODE_SIGN_STYLE
+__DEVELOPMENT_TEAM_Demo = $__SIGNED_BUILD_DEVELOPMENT_TEAM
+__CODE_SIGN_IDENTITY_Demo = $__SIGNED_BUILD_CODE_SIGN_IDENTITY
+
+__CODE_SIGN_IDENTITY_Debug = $__UNSIGNED_BUILD_CODE_SIGN_IDENTITY
+__CODE_SIGN_STYLE_Debug = $__UNSIGNED_BUILD_CODE_SIGN_STYLE
+__DEVELOPMENT_TEAM_Debug = $__UNSIGNED_BUILD_DEVELOPMENT_TEAM
+__CODE_SIGN_IDENTITY_Debug = $__UNSIGNED_BUILD_CODE_SIGN_IDENTITY
+
+CODE_SIGN_IDENTITY = $(__CODE_SIGN_IDENTITY_$(CONFIGURATION))
+CODE_SIGN_STYLE = $(__CODE_SIGN_STYLE_$(CONFIGURATION))
+DEVELOPMENT_TEAM = $(__DEVELOPMENT_TEAM_$(CONFIGURATION))
+
+OTHER_CODE_SIGN_FLAGS = --timestamp
+PROVISIONING_PROFILE_SPECIFIER = 
+
+#include? "NotarizationCredential.xcconfig"

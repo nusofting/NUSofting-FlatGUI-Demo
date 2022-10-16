@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: E tuned bassline K
+Params:
+  input: 0.692389
+  mix: 1
+  time 1: 0.025
+  sync 1: 0
+  Line 1 On: 1
+  rate 1: 0.17
+  depth 1: 0
+  div 1: 0.6
+  feed 1: 0.645
+  LP1: 0.81
+  HP1: 0.355
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.557143
+  pan 1: 0.365
+  time 2: 0.037
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.865
+  LP2: 0.705
+  HP2: 0.13
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.681818
+  pan 2: 0.665
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 1
+  dry: 0.515584
+  tape comp: 0.5
+  ana drift: 0
+  env time 1: 0.37
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

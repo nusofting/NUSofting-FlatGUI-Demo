@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: oddness
+Params:
+  input: 0.621345
+  mix: 0.516582
+  time 1: 0.13
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.135
+  LP1: 0.65
+  HP1: 0.565
+  pitch 1: 0.745
+  phase 1: 1
+  level 1: 0.679348
+  pan 1: 0
+  time 2: 0.18
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.285
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.3
+  LP2: 0.535
+  HP2: 0.575
+  pitch 2: 0.5
+  phase 2: 1
+  level 2: 0.679348
+  pan 2: 1
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0.5
+  crossfeed: 0
+  dry: 0.631769
+  tape comp: 1
+  ana drift: 1
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

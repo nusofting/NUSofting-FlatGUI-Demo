@@ -1,0 +1,44 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: fifth down bells
+Params:
+  input: 0.756784
+  mix: 0.396501
+  time 1: 0.015
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.395
+  depth 1: 0.075
+  div 1: 0
+  feed 1: 0.635
+  LP1: 0.475
+  HP1: 0.27
+  pitch 1: 0.21
+  phase 1: 1
+  level 1: 0.703971
+  pan 1: 0.1
+  time 2: 0.04
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.255
+  depth 2: 0.29
+  div 2: 0.2
+  feed 2: 0.635
+  LP2: 0.475
+  HP2: 0.27
+  pitch 2: 0.21
+  phase 2: 1
+  level 2: 0.703971
+  pan 2: 0.9
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0.474522
+  dry: 0.813406
+  tape comp: 0.5
+  ana drift: 1
+  env time 1: 0.5
+  env time 2: 0.5

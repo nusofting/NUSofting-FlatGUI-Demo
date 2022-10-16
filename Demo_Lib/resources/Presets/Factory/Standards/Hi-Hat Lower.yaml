@@ -1,0 +1,44 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: Hi-Hat Lower
+Params:
+  input: 0.51145
+  mix: 0.534439
+  time 1: 0.096135
+  sync 1: 0.519748
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.0554241
+  LP1: 1
+  HP1: 0.344286
+  pitch 1: 0
+  phase 1: 1
+  level 1: 0.884956
+  pan 1: 0
+  time 2: 0.085
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.175
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.42
+  LP2: 0.889921
+  HP2: 0.305
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.44462
+  pan 2: 1
+  link LPHPs: 0
+  link Feeds: 0.349909
+  link levels: 0
+  crossfeed: 0
+  dry: 0.976266
+  tape comp: 1
+  ana drift: 0.5
+  env time 1: 0.5
+  env time 2: 0.76

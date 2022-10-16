@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: swing rolls
+Params:
+  input: 0.637168
+  mix: 0.330383
+  time 1: 0.0794567
+  sync 1: 0.655006
+  Line 1 On: 1
+  rate 1: 0.201805
+  depth 1: 0.369644
+  div 1: 0.550365
+  feed 1: 0.169874
+  LP1: 0.82
+  HP1: 0.458147
+  pitch 1: 0.48268
+  phase 1: 0.441542
+  level 1: 0.690852
+  pan 1: 0.29
+  time 2: 0.110223
+  sync 2: 0.518062
+  Line 2 On: 1
+  rate 2: 0.296893
+  depth 2: 0.645271
+  div 2: 0.497307
+  feed 2: 0.285
+  LP2: 0.599027
+  HP2: 0.458131
+  pitch 2: 0.493661
+  phase 2: 0.737937
+  level 2: 0.690852
+  pan 2: 0.71
+  link LPHPs: 0
+  link Feeds: 0.349909
+  link levels: 1
+  crossfeed: 0.748619
+  dry: 0.80538
+  tape comp: 0.732551
+  ana drift: 0.37366
+  env time 1: 0.436645
+  env time 2: 0.552632
+  triplets 1: 0.594818
+  triplets 2: 0.645766

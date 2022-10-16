@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: breakbeat
+Params:
+  input: 0.734
+  mix: 0
+  time 1: 0.18
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 1
+  div 1: 0.6
+  feed 1: 0.14
+  LP1: 1
+  HP1: 0.545
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.737319
+  pan 1: 0.115
+  time 2: 0.105
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.285
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.18
+  LP2: 0.855
+  HP2: 0.38
+  pitch 2: 0.5
+  phase 2: 1
+  level 2: 0.63587
+  pan 2: 0.845
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 1
+  dry: 0.849558
+  tape comp: 0.5
+  ana drift: 0.5
+  env time 1: 0.315
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

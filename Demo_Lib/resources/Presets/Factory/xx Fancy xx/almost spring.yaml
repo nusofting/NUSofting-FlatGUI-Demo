@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: almost spring
+Params:
+  input: 0.69152
+  mix: 0.510204
+  time 1: 0.05
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.13
+  depth 1: 0.195
+  div 1: 0.2
+  feed 1: 1
+  LP1: 0.495
+  HP1: 0.28
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.595668
+  pan 1: 0.195
+  time 2: 0.025
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.09
+  depth 2: 0.23
+  div 2: 0
+  feed 2: 1
+  LP2: 0.505
+  HP2: 0.315
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.595668
+  pan 2: 0.805
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 1
+  crossfeed: 0.60828
+  dry: 1
+  tape comp: 0.5
+  ana drift: 1
+  env time 1: 0.43
+  env time 2: 0.41
+  triplets 1: 1
+  triplets 2: 0

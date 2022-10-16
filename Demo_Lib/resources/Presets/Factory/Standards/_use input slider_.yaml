@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: _use input slider_
+Params:
+  input: 0.331871
+  mix: 0.507289
+  time 1: 0.105
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.17
+  depth 1: 0.25
+  div 1: 0
+  feed 1: 0.81
+  LP1: 0.59
+  HP1: 0
+  pitch 1: 0.5
+  phase 1: 0
+  level 1: 0.849638
+  pan 1: 0.245
+  time 2: 0.17
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.2
+  depth 2: 0.355
+  div 2: 0
+  feed 2: 0.76
+  LP2: 0.415
+  HP2: 0.305
+  pitch 2: 1
+  phase 2: 0
+  level 2: 0.537906
+  pan 2: 0.76
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 1
+  dry: 0.994565
+  tape comp: 1
+  ana drift: 0
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

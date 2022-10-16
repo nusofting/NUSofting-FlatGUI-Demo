@@ -1,0 +1,4 @@
+LIBRARY wVstSynth
+EXPORTS
+VSTPluginMain
+main=VSTPluginMain

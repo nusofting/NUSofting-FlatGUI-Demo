@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: dotted fast dark
+Params:
+  input: 0.746491
+  mix: 0.539359
+  time 1: 0.095
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0.835
+  div 1: 0.4
+  feed 1: 0.715
+  LP1: 0.295
+  HP1: 0.24
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.748188
+  pan 1: 0.17
+  time 2: 0.165
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 1
+  depth 2: 0.365
+  div 2: 0.6
+  feed 2: 0.715
+  LP2: 0.295
+  HP2: 0.24
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.748188
+  pan 2: 0.83
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0.94586
+  dry: 0.983696
+  tape comp: 0.5
+  ana drift: 1
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0

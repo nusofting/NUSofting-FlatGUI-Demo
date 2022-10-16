@@ -1,0 +1,42 @@
+---
+Preset:
+  product: Echo_Mixer
+  version: 0.5.0
+  format: 1
+  name: dubbatrick
+Params:
+  input: 0.743
+  mix: 0.632653
+  time 1: 0.1
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 1
+  depth 1: 0
+  div 1: 0
+  feed 1: 0.24
+  LP1: 0.755
+  HP1: 0.24
+  pitch 1: 0
+  phase 1: 0
+  level 1: 0.679348
+  pan 1: 0.115
+  time 2: 0.175
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.285
+  depth 2: 0.835
+  div 2: 0.4
+  feed 2: 0.245
+  LP2: 0.755
+  HP2: 0.36
+  pitch 2: 0.5
+  phase 2: 0
+  level 2: 0.853261
+  pan 2: 0.845
+  link LPs: 0.5
+  link HPs: 0.5
+  link levels: 0.5
+  crossfeed: 0.45
+  dry: 0.761733
+  tape comp: 0.5
+  ana drift: 0.5

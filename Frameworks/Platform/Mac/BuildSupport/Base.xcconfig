@@ -1,0 +1,89 @@
+// Naming convention:
+// _<VARIABLE>
+//      is a custom (i.e. non-Xcode) variable that is simply substituted or directly used.
+// __<VARIABLE>_<SUFFIX>
+//      is a custom variable that is not directly used outside of the xcconfig file.
+//      Many of these variables are defined multiple times with different suffixes,
+//      and substituted with a nested variable to pick the desired variants, e.g. $(__<VARIABLE>_$(<SUFFIX))
+
+#include "Codesigning.xcconfig"
+
+ARCHS = $(ARCHS_STANDARD)
+MACOSX_DEPLOYMENT_TARGET = 10.9
+
+//==============================================================================
+//
+// Product name and version
+//
+__SPACER = 
+//__PRODUCT_NAME_BASE = <defined in project-specific xcconfig file>
+PRODUCT_NAME = $(__PRODUCT_NAME_BASE)$(__PRODUCT_NAME_SPACE_SUFFIX_$(CONFIGURATION))
+//_CURRENT_PROJECT_VERSION_MAC = <defined in project-specific xcconfig file>
+//_CURRENT_PROJECT_VERSION_DISPLAY = <defined in project-specific xcconfig file> Usually the same as _CURRENT_PROJECT_VERSION_MAC
+CURRENT_PROJECT_VERSION = $(_CURRENT_PROJECT_VERSION_MAC)
+
+
+//==============================================================================
+//
+// Shared paths
+//
+
+// Currently the NUSofting plugins typically reside in a path of the form:
+//      <plugin-name>/vstsynth
+// relative to the repository root directory, and the Xcode project file (and
+// thus SRCROOT) is in this vstsynth directory. So, to find shared directories
+// like the the frameworks root, we need to go up two directory levels to the
+// repository root.
+__REPOSITORY_ROOT_PATH = $(SRCROOT)/..
+__FRAMEWORKS_PATH = $(__REPOSITORY_ROOT_PATH)/Frameworks
+__BUILD_SUPPORT_PATH = $(__FRAMEWORKS_PATH)/Platform/Mac/BuildSupport
+_BUILD_SCRIPT_PATH = $(__BUILD_SUPPORT_PATH)
+_RUN_SCRIPT_HELPER = $(_BUILD_SCRIPT_PATH)/RunScriptHelper.sh
+
+
+//==============================================================================
+//
+// Variables that influence the built code, i.e. trigger conditional compilation
+// and create target and configuration-specific names and identifiers.
+//
+__MANUFACTURER_BASE = NUSofting
+__MANUFACTURER_Debug = $() Debug
+__MANUFACTURER_SUFFIX = $(__MANUFACTURER_$(CONFIGURATION))
+__MANUFACTURER = $(__MANUFACTURER_BASE)$(__MANUFACTURER_SUFFIX)
+__BUNDLE_ID_BASE = com.$(__MANUFACTURER:rfc1034identifier).$(PRODUCT_NAME:rfc1034identifier)
+__BUNDLE_ID_SUFFIX_component = .au
+__BUNDLE_ID_SUFFIX_vst = .vst
+__BUNDLE_ID_SUFFIX = $(__BUNDLE_ID_SUFFIX_$(WRAPPER_EXTENSION))
+PRODUCT_BUNDLE_IDENTIFIER = $(__BUNDLE_ID_BASE)$(__BUNDLE_ID_SUFFIX)
+
+__SHARED_PREPROCCESSOR_DEFINES = BUNDLE_ID='"$(PRODUCT_BUNDLE_IDENTIFIER)"' VstSynthVersionNum='"$(_CURRENT_PROJECT_VERSION_DISPLAY)"'
+__CONFIG_SPECIFIC_PREPROCCESSOR_DEFINES_Release = NDEBUG
+__CONFIG_SPECIFIC_PREPROCCESSOR_DEFINES_Demo = NDEBUG DEMO=1 DEMO__=1
+GCC_PREPROCESSOR_DEFINITIONS = $(__SHARED_PREPROCCESSOR_DEFINES) $(__CONFIG_SPECIFIC_PREPROCCESSOR_DEFINES_$(CONFIGURATION))
+
+// Search paths
+ALWAYS_SEARCH_USER_PATHS = NO
+USER_HEADER_SEARCH_PATHS = ../Frameworks ../Frameworks/vst2.4
+
+CLANG_CXX_LANGUAGE_STANDARD = compiler-default
+CLANG_CXX_LIBRARY = compiler-default
+
+// Compiler settings
+GCC_WARN_ABOUT_RETURN_TYPE = YES
+CLANG_ENABLE_OBJC_WEAK = YES
+
+//==============================================================================
+//
+// Bundle packaging settings
+//
+GENERATE_PKGINFO_FILE = YES
+
+//==============================================================================
+//
+// Local install path for testing.
+// Used by a run script build phase for "local install" targets.
+// Those targets need to be set up using the appropriate VST or AU xcconfig file.
+//
+__PRODUCT_NAME_VARIANT_Debug = -Debug
+_BUILT_SOURCE_PATH = $(TARGET_BUILD_DIR)/$(__PRODUCT_NAME_BASE).$(WRAPPER_EXTENSION)/
+_LOCAL_INSTALL_PATH = $(HOME)/$(INSTALL_PATH)/$(__PRODUCT_NAME_BASE)$(__PRODUCT_NAME_VARIANT_$(CONFIGURATION)).$(WRAPPER_EXTENSION)

@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0 RC 6
+  format: 1
+  name: mixed stereo
+Params:
+  input: 0.722714
+  mix: 0.938053
+  time 1: 0.0800597
+  sync 1: 0.655006
+  Line 1 On: 1
+  rate 1: 0.186667
+  depth 1: 0.755
+  div 1: 0.2
+  feed 1: 0.575
+  LP1: 0.441591
+  HP1: 0.273123
+  pitch 1: 0.5
+  phase 1: 0.436351
+  level 1: 0.788043
+  pan 1: 0.175
+  time 2: 0.0464583
+  sync 2: 0.518062
+  Line 2 On: 1
+  rate 2: 0.186667
+  depth 2: 0.835
+  div 2: 0
+  feed 2: 0.575
+  LP2: 0.501739
+  HP2: 0.248518
+  pitch 2: 0.5
+  phase 2: 0.440887
+  level 2: 0.788043
+  pan 2: 0.825
+  link LPHPs: 0
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 1
+  dry: 0.8
+  tape comp: 0
+  ana drift: 0
+  env time 1: 0.5
+  env time 2: 0.39
+  triplets 1: 0.597554
+  triplets 2: 0.635697

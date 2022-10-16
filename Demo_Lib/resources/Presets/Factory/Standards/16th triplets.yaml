@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: 16th triplets
+Params:
+  input: 0.727735
+  mix: 0.523901
+  time 1: 5.96788e-005
+  sync 1: 0.655006
+  Line 1 On: 1
+  rate 1: 0.186667
+  depth 1: 0
+  div 1: 0.00289012
+  feed 1: 0.169874
+  LP1: 0.996591
+  HP1: 0.00312332
+  pitch 1: 0.5
+  phase 1: 0.436351
+  level 1: 0.690852
+  pan 1: 0.29
+  time 2: 0.0114583
+  sync 2: 0.518062
+  Line 2 On: 1
+  rate 2: 0.186667
+  depth 2: 0.658431
+  div 2: 0.00270302
+  feed 2: 0.285
+  LP2: 0.996739
+  HP2: 0.00351771
+  pitch 2: 0.5
+  phase 2: 0.440887
+  level 2: 0.690852
+  pan 2: 0.71
+  link LPHPs: 0
+  link Feeds: 0.349909
+  link levels: 1
+  crossfeed: 0.00345232
+  dry: 0.8
+  tape comp: 0.430831
+  ana drift: 0.726424
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0.597554
+  triplets 2: 0.635697

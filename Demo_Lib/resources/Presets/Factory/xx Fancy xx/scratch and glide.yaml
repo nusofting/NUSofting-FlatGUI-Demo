@@ -1,0 +1,44 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: scratch and glide
+Params:
+  input: 0.73462
+  mix: 0.355685
+  time 1: 0.35
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.36
+  depth 1: 0
+  div 1: 0.4
+  feed 1: 0.74
+  LP1: 0.825
+  HP1: 0.395
+  pitch 1: 0.5
+  phase 1: 1
+  level 1: 0.498188
+  pan 1: 0.165
+  time 2: 0.475
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.14
+  depth 2: 0
+  div 2: 0.2
+  feed 2: 0.765
+  LP2: 0.545
+  HP2: 0.495
+  pitch 2: 0.5
+  phase 2: 1
+  level 2: 0.505415
+  pan 2: 0.845
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.347134
+  dry: 0.947464
+  tape comp: 0.5
+  ana drift: 0
+  env time 1: 0
+  env time 2: 0

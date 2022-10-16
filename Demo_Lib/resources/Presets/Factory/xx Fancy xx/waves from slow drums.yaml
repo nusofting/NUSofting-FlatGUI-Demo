@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: waves from slow drums
+Params:
+  input: 0.498538
+  mix: 0
+  time 1: 0.095
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.13
+  depth 1: 0
+  div 1: 0.6
+  feed 1: 0.69
+  LP1: 0.75
+  HP1: 0.24
+  pitch 1: 0
+  phase 1: 0
+  level 1: 0.681388
+  pan 1: 0.335
+  time 2: 0.045
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.09
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.815
+  LP2: 0.54
+  HP2: 0.28
+  pitch 2: 1
+  phase 2: 0
+  level 2: 0.404332
+  pan 2: 0.485
+  link LPHPs: 0
+  link Feeds: 0
+  link levels: 0
+  crossfeed: 0.843949
+  dry: 1
+  tape comp: 1
+  ana drift: 0
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 1

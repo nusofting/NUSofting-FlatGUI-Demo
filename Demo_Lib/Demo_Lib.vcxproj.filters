@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Synth">
+      <UniqueIdentifier>{09f52d95-c395-41f8-9812-724f5a180ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vstgui">
+      <UniqueIdentifier>{8ede9213-cfc7-4be4-9255-681c85a2f98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vstgui\src">
+      <UniqueIdentifier>{66704cf1-4701-43d9-9013-75b82b131b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vstgui\include">
+      <UniqueIdentifier>{7f3f0923-ccdc-4d6e-a3e6-0653fc431ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VSTsdk">
+      <UniqueIdentifier>{bad7a810-305f-4ce4-8f07-cf4cf88fbac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frameworks">
+      <UniqueIdentifier>{d3f005f8-2a7a-46a2-8762-54b9e1cd899d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\__myeditor__.cpp">
+      <Filter>Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VstSynthPar.cpp">
+      <Filter>Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VstSynthProc.cpp">
+      <Filter>Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\vstgui\plugin-bindings\plugguieditor.cpp">
+      <Filter>vstgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\vstgui\vstgui_win32.cpp">
+      <Filter>vstgui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffect.cpp">
+      <Filter>VSTsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffectx.cpp">
+      <Filter>VSTsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\vstplugmain.cpp">
+      <Filter>VSTsdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\AppearanceManager\Appearance.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\AppearanceController.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\AppearanceManager\AppearanceFactory.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\AppearanceManager\AppearanceManager.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CKickTwiceMenu.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CKickTwiceZoom.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\Controls.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CSimpleLabel.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CSliderFlat.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CStereoWavsView.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CToolTip.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\VSTGUI-extension\Dialogs.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Core\DspEngine.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\messages_multi_controls.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Core\MeteringData.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Core\Modulations.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Core\Parameters.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Platform\Common\PlatformCommon.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Platform\Win\PlatformWin.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Core\PluginCore.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\VSTGUI-extension\Popups.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\PreferencesRegistry.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Platform\Win\PreferencesRegistryStore.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\PresetManager\PresetManager.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\PresetManager\Program.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\PresetManager\ProgramFactory.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\StringsViewer.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\ToolBar.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\Core\Vst2Plugin.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\YAML\YamlParser.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\ZoomableEditor.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CRandWidget.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\FlatGUI\CDisplayBitmap.cpp">
+      <Filter>Frameworks</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Demo_LibPlugin.cpp">
+      <Filter>Synth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\__myeditor__.h">
+      <Filter>Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BFRBackgroundBitmap.h">
+      <Filter>Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="source\PluginDef.h">
+      <Filter>Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="source\VstSynth.h">
+      <Filter>Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\aeffect.h">
+      <Filter>VSTsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\aeffectx.h">
+      <Filter>VSTsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\aeffeditor.h">
+      <Filter>VSTsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vstgui\plugin-bindings\plugguieditor.h">
+      <Filter>vstgui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffect.h">
+      <Filter>VSTsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\audioeffectx.h">
+      <Filter>VSTsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\vst2.4\public.sdk\source\vst2.x\vstfxstore.h">
+      <Filter>VSTsdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\AppearanceManager\Appearance.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\AppearanceController.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\AppearanceManager\AppearanceFactory.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\AppearanceManager\AppearanceManager.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CKickTwiceMenu.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CKickTwiceZoom.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CLabelViewsChange.hpp">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\Config.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\Controls.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CSimpleLabel.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CSliderFlat.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CStereoWavsView.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CToolTip.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\editor_colours.hpp">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\FontSizeFactors.hpp">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\messages_multi_controls.hpp">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\Core\NotificationsInterface.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\Core\Parameters.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\Platform\Platform.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\Platform\Common\PlatformCommon.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\VSTGUI-extension\Popups.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\PreferencesRegistry.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\PresetManager\PresetManager.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\PresetManager\Program.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\PresetManager\ProgramFactory.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\StringsViewer.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\ToolBar.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\YAML\YamlParser.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\ZoomableEditor.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CRandWidget.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="source\randomizerSelector.hpp">
+      <Filter>Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="source\beta_switch.hpp">
+      <Filter>Synth</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\CDisplayBitmap.h">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Frameworks\FlatGUI\SharedToolBarRects.hpp">
+      <Filter>Frameworks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

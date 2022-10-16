@@ -1,0 +1,46 @@
+---
+Preset:
+  product: Echobis
+  version: 1.0.0
+  format: 1
+  name: 12+16 shift tune
+Params:
+  input: 0.694444
+  mix: 0.504373
+  time 1: 0.355
+  sync 1: 1
+  Line 1 On: 1
+  rate 1: 0.09
+  depth 1: 0
+  div 1: 0.2
+  feed 1: 0.81
+  LP1: 0.365
+  HP1: 0.435
+  pitch 1: 0.43
+  phase 1: 1
+  level 1: 0.458333
+  pan 1: 0.075
+  time 2: 0.485
+  sync 2: 1
+  Line 2 On: 1
+  rate 2: 0.16
+  depth 2: 0
+  div 2: 0
+  feed 2: 0.81
+  LP2: 0.365
+  HP2: 0.435
+  pitch 2: 0.455
+  phase 2: 0
+  level 2: 0.458333
+  pan 2: 0.925
+  link LPHPs: 1
+  link Feeds: 1
+  link levels: 1
+  crossfeed: 0.474522
+  dry: 0.907609
+  tape comp: 0.5
+  ana drift: 0
+  env time 1: 0.5
+  env time 2: 0.5
+  triplets 1: 0
+  triplets 2: 0
