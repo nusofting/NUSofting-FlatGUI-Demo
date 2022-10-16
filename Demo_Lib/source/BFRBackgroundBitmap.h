@@ -128,7 +128,7 @@ public:
 		// first titles and lines <<<<<<<<<<
 		pContext->setFont(myFont,rSpring.getHeight()/2.5,kBoldFace);
 		pContext->setFontColor (cFontLabels);
-		pContext->drawString("E c h o b i s",rSpring.inset(9.0f*scalingX,9.0f*scalingY),kLeftText);
+		pContext->drawString("Demo Lib",rSpring.inset(9.0f*scalingX,9.0f*scalingY),kLeftText);
 
 		rSpring.offset(198.0f*scalingX,0.0); 
 		rSpring.setHeight(kFontSizeSmall*scalingY);

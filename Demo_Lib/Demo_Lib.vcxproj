@@ -164,7 +164,7 @@
     </ProjectReference>
     <Link>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>msvcrt.lib;yaml-cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>msvcrt.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
       <OutputFile>C:\work_zone\vstplugins\demoLibVST\demoLibVST.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -314,7 +314,7 @@
     </ProjectReference>
     <Link>
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalDependencies>msvcrtd.lib;yaml-cppd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>msvcrtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ShowProgress>LinkVerboseLib</ShowProgress>
       <OutputFile>C:\work_zone\vstplugins\demoLibVST\demoLibVST.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
@@ -384,6 +384,31 @@
     <ClCompile Include="..\Frameworks\VSTGUI-extension\Popups.cpp" />
     <ClCompile Include="..\Frameworks\vstgui\plugin-bindings\plugguieditor.cpp" />
     <ClCompile Include="..\Frameworks\vstgui\vstgui_win32.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\aliasmanager.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\binary.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\conversion.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\directives.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitfromevents.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitter.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitterstate.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitterutils.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\exp.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\iterator.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\node.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\nodebuilder.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\nodeownership.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\null.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\ostream.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\parser.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\regex.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scanner.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scanscalar.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scantag.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scantoken.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\simplekey.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\singledocparser.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\stream.cpp" />
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\tag.cpp" />
     <ClCompile Include="..\Frameworks\YAML\YamlParser.cpp" />
     <ClCompile Include="source\Demo_LibPlugin.cpp" />
     <ClCompile Include="source\__myeditor__.cpp" />

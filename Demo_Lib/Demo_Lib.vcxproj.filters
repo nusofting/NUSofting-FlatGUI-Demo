@@ -19,6 +19,9 @@
     <Filter Include="Frameworks">
       <UniqueIdentifier>{d3f005f8-2a7a-46a2-8762-54b9e1cd899d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Frameworks\yaml-cpp">
+      <UniqueIdentifier>{2dd0641f-2d9e-49fa-abec-b4f0968d7830}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\__myeditor__.cpp">
@@ -146,6 +149,81 @@
     </ClCompile>
     <ClCompile Include="source\Demo_LibPlugin.cpp">
       <Filter>Synth</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\aliasmanager.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\binary.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\conversion.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\directives.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitfromevents.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitter.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitterstate.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\emitterutils.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\exp.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\iterator.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\node.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\nodebuilder.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\nodeownership.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\null.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\ostream.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\parser.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\regex.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scanner.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scanscalar.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scantag.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\scantoken.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\simplekey.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\singledocparser.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\stream.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Frameworks\yaml-cpp\src\tag.cpp">
+      <Filter>Frameworks\yaml-cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
